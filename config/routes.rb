@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   root 'home#top'
   #get "top" => 'home#top'
   get "index" => 'articles#index'
+
+
+  resources :articles
 end
